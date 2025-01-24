@@ -1,40 +1,15 @@
-# Gemini Invoice Q&A Chatbot
+# Gemini Gen-AI Projects
 
-## Introduction
-The **Gemini Invoice Q&A Chatbot** is an intelligent application that leverages Google Generative AI to analyze uploaded invoice images and answer user questions about their content. It provides a streamlined and user-friendly interface for extracting meaningful insights from invoices in real-time.
+## Overview
+The **Gemini-GenAI** folder is a centralized repository for projects integrating Google Generative AI (Gemini) capabilities into practical, real-world applications. Each project in this folder showcases a unique use case, demonstrating the power and versatility of Generative AI across different domains.
 
-## Setup Instructions
-
-### 1. Create a Virtual Environment
-To ensure all dependencies are isolated and the environment is consistent, create a virtual environment using Conda:
-
-`conda create -p venv python=3.12.8 -y`
-
-### 2. Install Required Libraries
-Once the virtual environment is set up, install all the required libraries using the provided `requirements.txt` file:
-
-`pip install -r requirement.txt`
-
-### 3. Set Up Environment Variables
-- Create a `.env` file in the project directory.
-- Add your Google API key in the following format:
-- 
-  `GOOGLE_API_KEY= "your_google_api_key_here"`
+## Tools and Technologies
+- **Google API KEY (Gemini):** The core AI capability powering these projects.
+- **LangChain:** For building advanced conversational AI workflows and integrations.
+- **Chroma DB:** A robust vector database for efficient embedding storage and retrieval.
+- **Streamlit:** For creating interactive and user-friendly web applications.
+- **Python:** Primary programming language.
+- **Libraries:** Vary by project and are specified in individual `requirements.txt` files.
   
-  ## Key Insights
-- This application demonstrates the integration of AI for practical, real-world applications such as invoice processing.
-- It uses Google Generative AI (Gemini) to process images and provide contextual answers to user queries.
-- The Streamlit framework powers the intuitive user interface, making it accessible and easy to use.
 
-## Tools and Technologies Used
-- **Programming Language:** Python 3.12.8
-- **Framework:** Streamlit
-- **AI API:** Google Generative AI (Gemini)
-- **Libraries:**
-  - `dotenv` for environment variable management
-  - `google-generativeai` for AI capabilities
 
-## How to Run
-- Open terminal in VS Code and run the command:
-   
-   `streamlit run app.py`
