@@ -1,12 +1,14 @@
-# Gemini RAG Application - Chat with Multiple PDFs
+# Chat with PDF using Gemini (RAG App)
 
 ## Introduction
-The **Gemini RAG APP** is an intelligent application that leverages Google Generative AI to analyze uploaded multiple PDFs and answer user questions relevant to the content. It provides a streamlined and user-friendly interface for relevant information from PDFs in real-time.
+The **Chat with PDF using Gemini** application leverages Retrieval-Augmented Generation (RAG) to enable users to upload PDF documents and interact with them via a chatbot. It combines advanced language modeling (Gemini LLM) and PDF parsing for contextual question-answering. This app is perfect for extracting insights from PDF files in an intuitive, conversational manner.
 
-## Key Insights
-- This application demonstrates the integration of AI for practical, real-world applications such as Chat with Multiple PDFs.
-- It uses Google Generative AI (Gemini) to process PDFs and provide contextual answers to user queries.
-- The Streamlit framework powers the intuitive user interface, making it accessible and easy to use.
+## Features
+- Upload multiple PDF files.
+- Extract and process text from uploaded documents.
+- Ask context-specific questions and get detailed answers.
+- Uses Gemini LLM for high-quality, accurate responses.
+- Provides a user-friendly Streamlit interface.
 
 ## Setup Instructions
 
@@ -29,6 +31,7 @@ Once the virtual environment is set up, install all the required libraries using
 ## Tools and Technologies Used
 - **Programming Language:** Python 3.12.8
 - **Framework:** Streamlit, Langchain
+- **FAISS:** Vector search engine for similarity-based document retrieval.
 - **AI API:** Google Generative AI (Gemini)
 - **Libraries:**
   - `dotenv` for environment variable management
