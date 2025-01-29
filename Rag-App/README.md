@@ -1,4 +1,4 @@
-# Chat with PDF using Gemini (RAG App)
+# Chat with Multiple PDF's using Gemini
 
 ## Introduction
 The **Chat with PDF using Gemini** application leverages Retrieval-Augmented Generation (RAG) to enable users to upload PDF documents and interact with them via a chatbot. It combines advanced language modeling (Gemini LLM) and PDF parsing for contextual question-answering. This app is perfect for extracting insights from PDF files in an intuitive, conversational manner.
