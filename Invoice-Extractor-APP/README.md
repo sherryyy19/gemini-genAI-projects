@@ -13,12 +13,16 @@ The **Gemini Invoice Q&A Chatbot** is an intelligent application that leverages 
 ### 1. Create a Virtual Environment
 To ensure all dependencies are isolated and the environment is consistent, create a virtual environment using Conda:
 
-`conda create -p venv python=3.12.8 -y`
+```sh
+conda create -p venv python=3.12.8 -y
+```
 
 ### 2. Install Required Libraries
 Once the virtual environment is set up, install all the required libraries using the provided `requirements.txt` file:
 
-`pip install -r requirement.txt`
+```sh
+pip install -r requirement.txt
+```
 
 ### 3. Set Up Environment Variables
 - Create a `.env` file in the project directory.
@@ -36,5 +40,7 @@ Once the virtual environment is set up, install all the required libraries using
 
 ## How to Run
 - Open terminal in VS Code and run the command:
-   
-   `streamlit run app.py`
+  
+ ```sh
+    streamlit run app.py
+    ```
