@@ -36,8 +36,10 @@ pip install -r requirement.txt
 ## Tools and Technologies Used
 - **Programming Language:** Python 3.12.8
 - **Framework:** Streamlit, Langchain
-- **FAISS:** Vector search engine for similarity-based document retrieval.
-- **AI API:** Google Generative AI (Gemini)
+- **RAG (Retrieval-Augmented Generation)**
+- **Vector Database:** FAISS (Facebook AI Similarity Search).
+- **Embeddings Model** models/embedding-001
+- **LLM (AI Model):** Google Gemini
 - **Libraries:**
   - `dotenv` for environment variable management
   - `PyPDF2` to read and extract data from PDF's
