@@ -6,6 +6,7 @@ The **Chat with PDF using Gemini** application enables users to upload PDF docum
 ## Features
 - Upload multiple PDF files.
 - Extract and process text from uploaded documents.
+- Store the chat history within the session
 - Ask context-specific questions and get detailed answers.
 - Uses Gemini LLM for high-quality, accurate responses.
 - Provides a user-friendly Streamlit interface.
