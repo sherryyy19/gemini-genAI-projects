@@ -1,7 +1,7 @@
 # Chat with Multiple PDFs using Gemini
 
 ## Introduction
-The **Chat with PDF using the Gemini** application is a powerful AI-driven tool that enhances document interactions using **Retrieval-Augmented Generation (RAG)**. By integrating FAISS for efficient semantic search and Google Gemini LLM for intelligent responses, this application allows users to upload multiple PDF files and engage in meaningful, context-aware conversations..
+The **Chat with PDF using the Gemini** application is a powerful AI-driven tool that enhances document interactions using **Retrieval-Augmented Generation (RAG)**. By integrating FAISS for efficient semantic search and Google Gemini LLM for intelligent responses, this application allows users to upload multiple PDF files and engage in meaningful, context-aware conversations.This approach enhances document analysis, making it ideal for research, business reports, and technical documentation.
 
 ## Features
 - Upload multiple PDF files.
