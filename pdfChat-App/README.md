@@ -24,7 +24,7 @@ conda create -p venv python=3.12.8 -y
 Once the virtual environment is set up, install all the required libraries using the provided `requirements.txt` file:
 
 ```sh
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ### 3. Set Up Environment Variables
