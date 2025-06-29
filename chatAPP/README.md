@@ -36,8 +36,13 @@ pip install -r requirements.txt
 - **Framework:** Streamlit
 - **AI API:** Google Generative AI (Gemini)
 - **Libraries:**
-  - `dotenv` for environment variable management
-  - `google-generativeai` for AI capabilities
+  - `streamlit` – UI framework
+  - `python-dotenv` – For environment variable management
+  - `google-generativeai` – Gemini embeddings and models
+  - `langchain` – RAG pipeline and LLM orchestration
+  - `faiss-cpu` – Vector store for similarity search
+  - `PyPDFLoader`, `UnstructuredURLLoader` – Data ingestion from PDFs and URLs
+  - `matplotlib`, `seaborn`, `pandas` – CSV analysis and visualizations
 
 ## How to Run
 - Open terminal in VS Code and run the command:
