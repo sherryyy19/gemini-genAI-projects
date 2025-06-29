@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ## Tools and Technologies Used
 - **Programming Language:** Python 3.13
 - **Framework:** Streamlit
-- **AI API:** Google Generative AI (Gemini), GROQ
+- **AI API:** Google Generative AI (Gemini)
 - **Libraries:**
   - dotenv for environment variable management
   - google-generativeai for AI capabilities
